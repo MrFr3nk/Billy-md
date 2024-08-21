@@ -1,0 +1,35 @@
+{
+    "name": "subzero",
+    "description": "A whatsApp bot based on Baileysjs linrary (Ts+Js) with Multi Device support",
+    "repository": "https://github.com/MrFr3nk/Billy-md",
+    "logo": "https://telegra.ph/file/7aa528767ed96ddc17bc2.jpg",
+    "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+    "env": {
+     "SESSION_ID": {
+      "description": "Must put session ID.",
+      "required": true,
+      "value": ""
+    }
+    },
+    "HEROKU_API_KEY": {
+      "description": "Must put session ID.",
+      "required": true,
+      "value": ""
+    }
+    "HEROKU_APP_NAME": {
+      "description": "Must put session ID.",
+      "required": true,
+      "value": ""
+    }
+    "buildpacks": [
+      {
+        "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+          }
+     ]
+}
