@@ -11,15 +11,19 @@
       "value": ""
     }
     },
-    "HEROKU_API_KEY": {
+   "env": { 
+       "HEROKU_API_KEY": {
       "description": "Must put session ID.",
       "required": true,
       "value": ""
+   }
     },
-    "HEROKU_APP_NAME": {
+    "env": {
+        "HEROKU_APP_NAME": {
       "description": "Must put session ID.",
       "required": true,
       "value": ""
+    }
     },
     "buildpacks": [
       {
