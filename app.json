@@ -15,12 +15,12 @@
       "description": "Must put session ID.",
       "required": true,
       "value": ""
-    }
+    },
     "HEROKU_APP_NAME": {
       "description": "Must put session ID.",
       "required": true,
       "value": ""
-    }
+    },
     "buildpacks": [
       {
         "url": "heroku/nodejs"
