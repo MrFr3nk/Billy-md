@@ -11,20 +11,8 @@
       "value": ""
     }
     },
-   "env": { 
-       "HEROKU_API_KEY": {
-      "description": "Must put heroku api.",
-      "required": true,
-      "value": ""
-   }
-    },
-    "env": {
-        "HEROKU_APP_NAME": {
-      "description": "Must put heroku app.",
-      "required": true,
-      "value": ""
-    }
-    },
+
+    
     "buildpacks": [
       {
         "url": "heroku/nodejs"
